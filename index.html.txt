@@ -1,0 +1,180 @@
+index.html
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minromode</title>
+  <meta name="description" content="Minromode | Management systems that make repeated excellence possible." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-row">
+      <a class="brand" href="#top">Minromode</a>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#outcomes">Outcomes</a>
+        <a class="btn btn-small" href="#contact">Email us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="pill">Clarity • Control • Consistency</p>
+          <h1>Management systems that make repeated excellence possible.</h1>
+          <p class="sub">
+            Minromode is a systems-led management consulting practice focused on strengthening
+            Plan-Do-Check-Act across organisations so the right work is planned, executed, tracked,
+            and continuously improved.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="mailto:minromode@gmail.com?subject=Minromode%20Inquiry%20-%20PDCA">Email us</a>
+            <a class="btn btn-ghost" href="#services">See services</a>
+          </div>
+
+          <div class="meta">
+            <span>✅ Integrated planning horizons</span>
+            <span>✅ Execution discipline</span>
+            <span>✅ Closed-loop improvement</span>
+          </div>
+        </div>
+
+        <div class="card hero-card">
+          <h3>What we enable</h3>
+          <ul>
+            <li>Plans that translate into execution</li>
+            <li>Clear ownership and resourcing</li>
+            <li>KPIs at the right levels</li>
+            <li>Corrective actions that close</li>
+          </ul>
+          <div class="divider"></div>
+          <p class="tiny">The result: clarity that lets the business run.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <p class="lead">
+          Practical consulting that builds a management system you can sustain.
+        </p>
+
+        <div class="grid3">
+          <div class="card">
+            <h3>PDCA Operating System</h3>
+            <p>
+              Design and embed a Plan-Do-Check-Act cadence that turns strategy into routine execution
+              and learning.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Integrated Business Planning</h3>
+            <p>
+              Connect long-, medium-, and short-term planning across organisational levels so the
+              right work is always prioritised.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Performance & Action Management</h3>
+            <p>
+              Align KPIs, generate corrective actions at the right level, and ensure actions close
+              with accountability.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="approach" class="section alt">
+      <div class="container two-col">
+        <div>
+          <h2>Our approach</h2>
+          <p class="lead">Systems thinking applied to management routines.</p>
+          <p>
+            We integrate ORM and execution discipline into business planning across horizons
+            and organisational levels.
+          </p>
+          <p>
+            Work is executed by the right people, with the right resources, in the right way.
+            Outcomes are tracked systematically so learning feeds back into planning and standards.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>The clarity loop</h3>
+          <ol class="steps">
+            <li><strong>Plan:</strong> right work, right horizon, right owners</li>
+            <li><strong>Do:</strong> right people, resources, and method</li>
+            <li><strong>Check:</strong> KPIs at the appropriate level</li>
+            <li><strong>Act:</strong> corrective actions executed and verified</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="outcomes" class="section">
+      <div class="container">
+        <h2>Outcomes</h2>
+        <p class="lead">What repeated excellence looks like in practice.</p>
+
+        <div class="grid3">
+          <div class="quote">
+            <p>Plans that reliably translate into action.</p>
+            <span>Less drift</span>
+          </div>
+          <div class="quote">
+            <p>Work executed consistently across teams.</p>
+            <span>Less rework</span>
+          </div>
+          <div class="quote">
+            <p>Performance issues corrected early and closed.</p>
+            <span>More stability</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container two-col">
+        <div>
+          <h2>Contact</h2>
+          <p class="lead">
+            If your system struggles with planning, execution, or closure, let’s talk.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Email Minromode</h3>
+          <div class="divider"></div>
+          <a class="btn" href="mailto:minromode@gmail.com?subject=Minromode%20Inquiry%20-%20Management%20Systems">
+            Email us
+          </a>
+          <p class="tiny" style="margin-top:12px;">
+            minromode@gmail.com
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <span>© <span id="year"></span> Minromode</span>
+      <span class="tiny">Systems-led management consulting.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
