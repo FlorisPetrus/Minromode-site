@@ -226,3 +226,13 @@ h3{ margin:0 0 8px; }
   gap:12px;
   color:var(--muted);
 }
+/* Header CTA: improve contrast */
+.header .btn-small{
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  color: #000000;            /* black text */
+  font-weight: 900;
+}
+
+.header .btn-small:hover{
+  filter: brightness(1.08);
+}
